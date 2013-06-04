@@ -10,12 +10,12 @@ table {
 }
 
 th {
-	background-color: #c3c3c3;
+	background-color: #202020;
 	padding-left:5%;
 }
 
 tr:nth-child(odd) {
-    background-color: #e8e8e8;
+    background-color: #303030;
 }
 
 .red {
