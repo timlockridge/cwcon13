@@ -31,3 +31,16 @@ tr:nth-child(odd) {
 	margin-bottom: 5%;
 	text-align: left;
 }
+
+p.gray {
+	color: #808080;
+	font-size: 75%;
+}
+
+p.top {
+	margin-top: 5%;
+}
+
+h3.subtitle, h4.subtitle {
+	color: #c0c0c0;
+}
