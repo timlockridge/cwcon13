@@ -14,6 +14,7 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<title>Accessibility as Professional Practice: CWCON13</title>
 		
@@ -64,10 +65,10 @@
 					<h1>Measured for four basic web accessibility components</h1>
 				</section>				
 				<section id="slide8">
-					<table>
+					<table id="sitedata">
 						<tr id="sitesheader">
 							<th>Site</th>
-							<th>Page Type</th>
+							<th>Development Tool</th>
 							<th>Alt Text?</th>
 							<th>Headings?</th>
 							<th>ARIA/HTML5?</th>
@@ -75,78 +76,78 @@
 							<td>1</td>
 							<td>Weebly</td>
 							<td>0/3</td>
-							<td>No</td>
-							<td>No</td>							
+							<td class="red">No</td>
+							<td class="red">No</td>							
 						</tr>
 						<tr id="sitesrow2">
 							<td>2</td>
 							<td>Dreamweaver</td>
 							<td>3/3</td>
-							<td>No</td>
-							<td>No</td>
+							<td class="red">No</td>
+							<td class="red">No</td>
 						</tr>
 						<tr id="sitesrow3">
 							<td>3</td>
 							<td>Wordpress</td>
 							<td>1/2</td>
-							<td>Yes</td>
-							<td>Yes</td>														
+							<td class="green">Yes</td>
+							<td class="green">Yes</td>														
 						</tr>
 						<tr id="sitesrow4">
 							<td>4</td>
 							<td>Dreamweaver</td>
 							<td>1/2</td>
-							<td>No</td>
-							<td>No</td>														
+							<td class="red">No</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow5">
 							<td>5</td>
 							<td>Dreamweaver</td>
 							<td>0/25</td>
-							<td>Yes</td>
-							<td>No</td>														
+							<td class="green">Yes</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow6">
 							<td>6</td>
-							<td>Static</td>
+							<td>Static HTML</td>
 							<td>0/8</td>
-							<td>Yes</td>
-							<td>No</td>														
+							<td class="green">Yes</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow7">
 							<td>7</td>
 							<td>Wordpress</td>
 							<td>12/21</td>
-							<td>No</td>
-							<td>No</td>														
+							<td class="red">No</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow8">
 							<td>8</td>
 							<td>Wordpress</td>
 							<td>9/11</td>
-							<td>Yes</td>
-							<td>No</td>														
+							<td class="green">Yes</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow9">
 							<td>9</td>
 							<td>Drupal</td>
 							<td>3/6</td>
-							<td>Yes</td>
-							<td>No</td>														
+							<td class="green">Yes</td>
+							<td class="red">No</td>														
 						</tr>
 						<tr id="sitesrow10">
 							<td>10</td>
 							<td>Wordpress</td>
 							<td>3/4</td>
-							<td>Yes</td>
-							<td>Yes</td>														
+							<td class="green">Yes</td>
+							<td class="green">Yes</td>														
 						</tr>
 						<tr id="sitesrow11">
 							<td>11</td>
-							<td>Static</td>
+							<td>Static HTML</td>
 							<td>9/10</td>
-							<td>No</td>
-							<td>No</td>														
+							<td class="red">No</td>
+							<td class="red">No</td>														
 						</tr>
 					</table>
 				</section>
@@ -178,7 +179,7 @@
 					<h1>3. The Digital Current Traditional: A Warning</h1>
 				</section>
 				<section id="slide18">
-					<blockquote>
+					<blockquote class="welch">
 						<p>“perhaps the recognition of all five canons and the definitive twentieth-century erasure of memory and delivery will lead to the obliteration of the current-traditional paradigm and its twin the false binary opposition of content and form” (147).</p>
 
 						<p>&mdash;Kathleen Welch, from <cite>Electric Rhetoric</cite> (1999)</p>
@@ -208,9 +209,9 @@
 				progress: true,
 				history: true,
 				center: true,
-				width: 1440,
-				height: 900,
-				margin: 0.1,
+				width: '100%',
+				height: '100%',
+				margin: 0.05,
 				maxscale: 3.0,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme

@@ -1,0 +1,33 @@
+/* Custom CSS for Presentation */
+
+hr {
+	margin: 2%;
+}
+
+table {
+	margin: auto;
+	width:100%;
+}
+
+th {
+	background-color: #c3c3c3;
+	padding-left:5%;
+}
+
+tr:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.welch p {
+	font-size: 150%;
+	margin-bottom: 5%;
+	text-align: left;
+}
